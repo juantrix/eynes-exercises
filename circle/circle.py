@@ -6,3 +6,6 @@ class Circle():
         if radius < 0:
             raise ValueError("Radius cannot be negative or zero")
         self.radius = radius
+
+    def get_radius(self):
+        return self.radius
