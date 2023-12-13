@@ -25,3 +25,6 @@ class Circle():
         if n <= 0:
             raise ValueError("Multiplier cannot be negative or zero")
         return Circle(self.radius * n)
+
+    def __str__(self):
+        return f"Circle with radius: {self.radius}"
