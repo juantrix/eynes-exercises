@@ -14,3 +14,6 @@ class Circle():
         if radius <= 0:
             raise ValueError("Radius cannot be negative or zero")
         self.radius = radius
+
+    def get_area(self):
+        return math.pi * self.radius ** 2
